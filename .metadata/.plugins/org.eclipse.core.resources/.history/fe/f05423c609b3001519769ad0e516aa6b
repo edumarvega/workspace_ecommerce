@@ -1,0 +1,68 @@
+<%@ include file="/pages/template/taglibs.jsp" %>
+
+<div id="divPrint">
+		<!--<s:form id="formComprobante" theme="simple"  cssClass="form-horizontal" role="form">
+		  		
+		 <div class="form-group">
+    		<label for="numeroPedido" class="col-sm-4 control-label">N&#176; de Pedido</label>
+    		<div class="col-sm-5">
+      			<p class="form-control-static"><s:property value="numeroPedido"/></p>
+    		</div>
+  		</div>
+  		 			
+  		<div class="form-group">
+    		<label for="apellido" class="col-sm-4 control-label">Apellido</label>
+    		<div class="col-sm-5">
+      			<p class="form-control-static"><s:property value="apellido"/></p>
+    		</div>
+  		</div>
+  		
+  		<div class="form-group">
+    		<label for="nombres" class="col-sm-4 control-label">Nombres</label>
+    		<div class="col-sm-5">
+      			<p class="form-control-static"><s:property value="nombres"/></p>
+    		</div>
+  		</div>
+  		  		
+  		<div class="form-group">
+    		<label for="direccion" class="col-sm-4 control-label">Direccion</label>
+    		<div class="col-sm-5">
+      			<p class="form-control-static"><s:property value="direccion"/></p>
+    		</div>
+  		</div>
+  		
+  		<div class="form-group">
+    		<label for="telefono" class="col-sm-4 control-label">Telefono</label>
+    		<div class="col-sm-5">
+      			<p class="form-control-static"><s:property value="telefono"/></p>
+    		</div>
+  		</div>
+    </s:form>-->
+   <br><br>
+    	<table>
+    		<tr>
+    			<td><b><p>N&#176; DE PEDIDO:</p></b></td><td><p>&nbsp;<s:property value="numeroPedido"/></p></td>
+    		</tr>
+    		<tr>
+    			<td><b><p>FECHA:</p></b></td><td><p>&nbsp;<s:property value="numeroPedido"/></p></td>
+    		</tr>
+    		<tr>
+    			<td><b><p>TOTAL DEL PEDIDO:</p></b></td><td><p>&nbsp;$<s:property value="numeroPedido"/></p></td>
+    		</tr>
+    		<tr>
+    			<td><b><p>APELLIDO:</p></b></td><td><p>&nbsp;<s:property value="apellido"/></p></td>
+    		</tr>
+    			<td><b><p>NOMBRES:</p></b></td><td><p>&nbsp;<s:property value="nombres"/></p></td>
+    		</tr>
+    		<tr>
+    			<td><b><p>DIRECCION:</p></b></td><td><p>&nbsp;<s:property value="direccion"/></p></td>
+    		</tr>
+    		<tr>
+	   			<td><b><p>TELEFONO:</p></b></td><td><p>&nbsp;<s:property value="telefono"/></p></td>
+    		</tr>
+    		<tr>
+	   			<td><b><p>TELEFONO:</p></b></td><td><p>&nbsp;<s:property value="email"/></p></td>
+    		</tr>
+   		 </table>
+   
+</div>

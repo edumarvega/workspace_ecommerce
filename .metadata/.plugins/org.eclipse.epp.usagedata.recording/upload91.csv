@@ -1,0 +1,226 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102352125
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102441190
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452102444007
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102445504
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102446537
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102453986
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452102458008
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1452102459488
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102459693
+started,bundle,org.eclipse.mylyn.ide.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.ide.ui",1452102469092
+started,bundle,org.eclipse.jpt.jaxb.ui,1.1.2.v201201260000,"org.eclipse.jpt.jaxb.ui",1452102469134
+started,bundle,org.eclipse.jpt.jpa.ui,3.0.2.v201201243020,"org.eclipse.jpt.jpa.ui",1452102469174
+started,bundle,org.eclipse.jst.ws.jaxws.ui,1.0.100.v201104032053,"org.eclipse.jst.ws.jaxws.ui",1452102469845
+started,bundle,org.eclipse.mylyn.java.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.ui",1452102469870
+started,bundle,org.eclipse.pde.api.tools,1.0.301.v20111129-2053,"org.eclipse.pde.api.tools",1452102470015
+started,bundle,org.eclipse.pde.api.tools.ui,1.0.301.v20110803_r371,"org.eclipse.pde.api.tools.ui",1452102470020
+started,bundle,org.eclipse.jpt.jaxb.core,1.0.2.v201111103010,"org.eclipse.jpt.jaxb.core",1452102470357
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102472717
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1452102474103
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.internal.ui.CompilationUnitEditor.ruler.actions/org.eclipse.jdt.internal.ui.javaeditor.JavaSelectRulerAction",1452102484337
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102485468
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102485732
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.saveAll",1452102493051
+started,bundle,org.eclipse.debug.ui,3.7.102.v20111129-1423_r372,"org.eclipse.debug.ui",1452102495757
+started,bundle,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui",1452102496575
+executed,command,,,"AUTOGEN:::org.eclipse.jdt.debug.CompilationUnitEditor.BreakpointRulerActions/org.eclipse.jdt.debug.ui.actions.ManageBreakpointRulerAction",1452102496654
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452102503289
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452102506298
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102507738
+executed,command,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1452102523417
+opened,view,org.eclipse.ui.console,3.5.100.v20111007_r372,"org.eclipse.ui.console.ConsoleView",1452102524362
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102544833
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102573435
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102591801
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102678632
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452102683087
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102684307
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1452102686921
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452102687299
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1452102688616
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102689700
+executed,command,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1452102693569
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452102701419
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102702801
+executed,command,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1452102706718
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102715734
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102718691
+executed,command,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1452102722895
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102735528
+executed,command,org.eclipse.jdt.debug.ui,3.6.1.v20111006_r372,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1452102739292
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102743933
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102824909
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1452102827783
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102839442
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452102866955
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452102870959
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452102871014
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1452102873088
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452102873313
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452102873361
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1452102883011
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452102883186
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452102906678
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452102910975
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452102923869
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102925127
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102925287
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102925443
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102925452
+error,log,,,"Plugin org.eclipse.jst.j2ee, extension org.eclipse.wst.validation.validationHelper\nError processing extension: org.eclipse.core.internal.registry.ConfigurationElementHandle@2455",1452102925467
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102925500
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102925502
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452102925503
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102926525
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1452102930402
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452102933009
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102933544
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102933674
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102933749
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102933751
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452102933752
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102933753
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102933755
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102942844
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102942975
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102943194
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102943196
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452102943197
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102943202
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102943206
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452102947705
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102948999
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102949098
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102949227
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102949230
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102949235
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102949244
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452102949245
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102950300
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102956955
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102957047
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102957183
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102957188
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102957189
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102957191
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452102957194
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102958220
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452102961812
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102962207
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102962306
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102962416
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102962417
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102962419
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102962421
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452102962422
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102963477
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452102966832
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1452102974242
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452102975308
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452102977696
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452102993166
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452102993314
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102993408
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102993410
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452102993411
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452102993414
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452102993418
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1452102999884
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452103003400
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1452103008767
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452103011404
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103011886
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103011985
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103012251
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103012255
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103012259
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103012262
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103012262
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103013321
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452103014468
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452103014965
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452103015379
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452103015757
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452103016126
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452103016517
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452103017236
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.undo",1452103019718
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103022297
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103023268
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103023393
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103023498
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103023501
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103023502
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103023505
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103023508
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452103024856
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103026447
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103031564
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103033181
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1452103039583
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103042710
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452103046587
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1452103062142
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452103065263
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452103078636
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452103088524
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.cut",1452103098447
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452103100102
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1452103107975
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103109760
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103109852
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103109925
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103109927
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103109928
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103109935
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103109937
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineStart",1452103111216
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103117167
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452103123178
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452103128130
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103130204
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103130346
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103130425
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103130427
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103130428
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103130429
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103130438
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103135088
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103135150
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103165416
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103192921
+opened,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103227533
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103227580
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103245174
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103255365
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103256839
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103256940
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103257039
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103257041
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103257047
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103257050
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103257051
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103258098
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1452103258977
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452103262168
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.text.contentAssist.proposals",1452103268372
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103274300
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103274402
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103274471
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103274472
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103274474
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103274478
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103274479
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103275538
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1452103278491
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1452103279847
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103280293
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103280414
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103280589
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103280591
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103280599
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103280601
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103280603
+executed,command,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.edit.text.java.organize.imports",1452103284485
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103284635

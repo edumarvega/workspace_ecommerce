@@ -1,0 +1,10 @@
+package ar.com.templateit.test;
+
+public class Test {
+
+	public static void main(String[] args) {
+		DecimalFormat formateador = new DecimalFormat("###0.##"); 
+		double prdped = " tu valor en double"; 
+		prdped = formateador.parse(formateador.format(prdped)).doubleValue();
+    }
+}

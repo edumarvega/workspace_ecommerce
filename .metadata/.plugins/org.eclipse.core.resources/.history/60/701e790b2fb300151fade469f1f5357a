@@ -1,0 +1,117 @@
+package ar.com.templateit.ecommerce.action;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.servlet.http.HttpServletRequest;
+
+import net.webservicex.SendSMSSoap;
+
+import org.apache.struts2.ServletActionContext;
+import org.tempuri.ArrayOfArticulo;
+import org.tempuri.ArrayOfCategoria;
+import org.tempuri.Articulo;
+import org.tempuri.Categoria;
+import org.tempuri.Service1Soap;
+
+import ar.com.templateit.ecommerce.assembler.CategoriaAssembler;
+import ar.com.templateit.ecommerce.assembler.ProductoAssembler;
+import ar.com.templateit.ecommerce.dto.CategoriaDTO;
+import ar.com.templateit.ecommerce.dto.DetallePedidoDTO;
+import ar.com.templateit.ecommerce.dto.ProductoDTO;
+
+import com.opensymphony.xwork2.ActionContext;
+
+public class HomeAction {
+	
+	private List<CategoriaDTO> categoriasDTO;
+	private List<ProductoDTO> productosDTO;
+	private SendSMSSoap sendSMSSoap;
+	private Service1Soap service1Soap;
+	
+	public String execute() {
+			
+		HttpServletRequest request = ServletActionContext.getRequest();
+		System.out.println(request.getContextPath());
+		String basePath = request.getScheme() + "://"
+	            + request.getServerName() + ":" + request.getServerPort()
+	            + request.getContextPath() + "/";
+		System.out.println(basePath);
+		String filePath = request.getSession().getServletContext().getRealPath(“/”);
+        System.out.println("Server path:" + filePath);
+				
+//		SMSResult result = sendSMSSoap.sendSMSToIndia("+541164768633", "edumarvega@hotmail.com", "Hello from Argentina");
+//		System.out.println("Numero de cel: "+result.getMobileNumber());
+//		System.out.println("email: "+result.getFromEmailAddress());
+		ArrayOfCategoria resultadoCategoria =  this.service1Soap.getCategories();
+		List<Categoria> categorias = resultadoCategoria.getCategoria();
+		
+		ArrayOfArticulo resultadoArticulo = this.service1Soap.getArticulosByDescription("");
+		List<Articulo> articulos = resultadoArticulo.getArticulo();
+
+		this.productosDTO = new ArrayList<ProductoDTO>();
+		this.categoriasDTO = new ArrayList<CategoriaDTO>();
+		
+		ProductoAssembler productoAssembler = new ProductoAssembler();
+		
+		for(Articulo articulo : articulos){
+			CategoriaDTO categoriaDTO = new CategoriaDTO();
+			for(Categoria cat : categorias){
+				if(cat.getIdCategoria()==articulo.getIdCategoria()){
+					CategoriaAssembler categoriaAssembler = new CategoriaAssembler();
+					categoriaDTO = categoriaAssembler.getData(cat);
+					byte[] image = this.service1Soap.getImageByArticulo(articulo.getIdArticulo());
+					this.productosDTO.add(productoAssembler.getData(articulo,categoriaDTO,image));
+		
+				}
+			}
+		}
+		
+		for(Categoria cat : categorias){
+			CategoriaAssembler categoriaAssembler = new CategoriaAssembler();
+			CategoriaDTO catDTO = new CategoriaDTO();
+			catDTO = categoriaAssembler.getData(cat);
+			this.categoriasDTO.add(catDTO);
+		}
+		
+		ActionContext.getContext().getSession().put("productosDTO", this.productosDTO);
+		ActionContext.getContext().getSession().put("categoriasDTO", this.categoriasDTO);
+		
+		List<DetallePedidoDTO> detallePedidoDTO = new ArrayList<DetallePedidoDTO>();
+		
+		ActionContext.getContext().getSession().put("detallePedidoDTO", detallePedidoDTO);
+		ActionContext.getContext().getSession().put("totalVenta", new BigDecimal("0.00"));
+
+		return "SUCCESS";
+
+	}
+
+	public void setSendSMSSoap(SendSMSSoap sendSMSSoap) {
+		this.sendSMSSoap = sendSMSSoap;
+	}
+
+	public List<CategoriaDTO> getCategoriasDTO() {
+		return categoriasDTO;
+	}
+
+	public void setCategoriasDTO(List<CategoriaDTO> categoriasDTO) {
+		this.categoriasDTO = categoriasDTO;
+	}
+
+	public List<ProductoDTO> getProductosDTO() {
+		return productosDTO;
+	}
+
+	public void setProductosDTO(List<ProductoDTO> productosDTO) {
+		this.productosDTO = productosDTO;
+	}
+	
+
+	public void setService1Soap(Service1Soap service1Soap) {
+		this.service1Soap = service1Soap;
+	}
+
+	
+
+}

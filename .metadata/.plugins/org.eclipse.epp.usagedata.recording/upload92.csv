@@ -1,0 +1,226 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1452103290100
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103292867
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103293992
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103294372
+started,bundle,org.eclipse.jst.server.core,1.2.202.v20110419,"org.eclipse.jst.server.core",1452103294552
+error,log,,,"Can not publish because module ecommerce is closed or deleted",1452103294571
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103301728
+executed,command,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.publish",1452103304982
+error,log,,,"Can not publish because module ecommerce is closed or deleted",1452103305026
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103305149
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103309667
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103312423
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103333962
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103334331
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103334822
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103335082
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103335384
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103335595
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103335799
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103335990
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103336176
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103336939
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1452103340173
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1452103341832
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103342316
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103342662
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103342957
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103343219
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103343454
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103343642
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103343786
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103343978
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103344329
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103344561
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103350137
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103350687
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103356219
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103356685
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103358501
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103358638
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103358732
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103358734
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103358735
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103358739
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103358741
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103362328
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103362667
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103362967
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103363205
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103367438
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103367778
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103368143
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103368378
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103368521
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103369891
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103370001
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103370141
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103370146
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103370148
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103370155
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103370157
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103372459
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103372789
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103372998
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103373159
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103373313
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103374456
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103374553
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103374675
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103374690
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103374691
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103374692
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103374696
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1452103382074
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103383910
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103384923
+error,log,,,"Can not publish because module ecommerce is closed or deleted",1452103384953
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103385175
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103390482
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1452103392761
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103397346
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103405900
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103419862
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103419984
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103420150
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103420338
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103420505
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103420687
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103420859
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103421031
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103422364
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103422629
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103422968
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103423254
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103423520
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103423773
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103424012
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103424510
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103424724
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103424931
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103425127
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103425329
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103425495
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103425733
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103426110
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.select.lineEnd",1452103427894
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103428363
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103428651
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103431648
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103431823
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103431975
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103432137
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103432276
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103432438
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103432584
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103432754
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103432915
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103433061
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103433369
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.delete",1452103433908
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.goto.lineEnd",1452103435032
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1452103465846
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103465979
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103466066
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103466068
+error,log,,,"IWAE0017E Cannot create validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator because a Throwable was caught.",1452103466070
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator.",1452103466073
+error,log,,,"IWAE0019E Cannot instantiate validator org.eclipse.jst.j2ee.internal.classpathdep.ClasspathDependencyValidator. Disabling the validator; read the log for details.",1452103466074
+error,log,,,"Failed to load class ""org.eclipse.jst.j2ee.project.facet.EarFacetValidator"" from plugin ""org.eclipse.jst.j2ee"".",1452103467128
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103479548
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103480923
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103482696
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103482696
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103484072
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103485282
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103486187
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103487652
+activated,view,org.eclipse.wst.server.ui,1.3.0.v20120210_1439,"org.eclipse.wst.server.ui.ServersView",1452103493601
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103495311
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103496248
+error,log,,,"Can not publish because module ecommerce is closed or deleted",1452103496268
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103496477
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103502376
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1452103503244
+started,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.300.v201108240515,"org.eclipse.wst.ws.service.policy.ui",1452103503475
+started,bundle,org.eclipse.wst.ws.service.policy,1.0.303.v201009221810,"org.eclipse.wst.ws.service.policy",1452103503509
+started,bundle,org.eclipse.wst.command.env,1.0.409.v201004211805,"org.eclipse.wst.command.env",1452103503618
+started,bundle,org.eclipse.wst.ws,1.1.203.v201004211805,"org.eclipse.wst.ws",1452103503643
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1452103503754
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1452103508382
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.closeProject",1452103508388
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.102.v201201131900,"org.eclipse.wst.jsdt.ui",1452103508460
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103508709
+started,bundle,org.eclipse.wst.xml.ui,1.1.202.v201112071516,"org.eclipse.wst.xml.ui",1452103508832
+started,bundle,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.ui",1452103508845
+started,bundle,org.eclipse.wst.html.core,1.1.502.v201202091936,"org.eclipse.wst.html.core",1452103509020
+started,bundle,org.eclipse.wst.common.uriresolver,1.1.401.v201004280700,"org.eclipse.wst.common.uriresolver",1452103509210
+started,bundle,org.eclipse.wst.css.core,1.1.501.v201111292150,"org.eclipse.wst.css.core",1452103509364
+started,bundle,org.eclipse.wst.jsdt.web.support.jsp,1.0.400.v201102241833,"org.eclipse.wst.jsdt.web.support.jsp",1452103509417
+started,bundle,org.eclipse.wst.jsdt.web.ui,1.0.401.v201108152113,"org.eclipse.wst.jsdt.web.ui",1452103509434
+started,bundle,org.eclipse.wst.css.ui,1.0.601.v201201101544,"org.eclipse.wst.css.ui",1452103510515
+started,bundle,org.eclipse.wst.dtd.ui,1.0.600.v201103171359,"org.eclipse.wst.dtd.ui",1452103510657
+started,bundle,org.eclipse.wst.jsdt.web.core,1.0.401.v201108152113,"org.eclipse.wst.jsdt.web.core",1452103510703
+opened,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1452103510776
+closed,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1452103510824
+activated,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1452103513267
+activated,view,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.PackageExplorer",1452103513409
+closed,editor,org.eclipse.jst.jsp.ui,1.1.602.v201112071516,"org.eclipse.jst.jsp.core.jspsource.source",1452103513410
+executed,command,org.eclipse.ui.ide,3.7.0.v20110928-1505,"org.eclipse.ui.project.openProject",1452103515878
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103516176
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1452103516300
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516387
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516389
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516394
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516397
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516462
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.core.resources"".",1452103516463
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516465
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516470
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516472
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516476
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516485
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516488
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516490
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516493
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516496
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516499
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516507
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516510
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516512
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516515
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516517
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516520
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516522
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516531
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516534
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516541
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516544
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516547
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516549
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516557
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516559
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516562
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516565
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516568
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516570
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516578
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516580
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516585
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516587
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516590
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516594
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516598
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516605
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516608
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516611
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516614
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516616
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516619
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516626
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516630
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516632
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516635
+error,log,,,"Plug-in org.eclipse.jst.j2ee was unable to load class org.eclipse.jst.j2ee.componentcore.J2EEModuleVirtualComponent.",1452103516637
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.wst.common.modulecore"".",1452103516640

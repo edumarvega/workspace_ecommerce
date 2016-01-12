@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.lowagie.text.List"/>
+<fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="ar.com.templateit.ecommerce.util.RandomGenerator"/>
+<fullyQualifiedTypeName name="java.io.Serializable"/>
+<fullyQualifiedTypeName name="ar.com.templateit.ecommerce.dto.PedidoDTO"/>
+<fullyQualifiedTypeName name="org.tempuri.Service1Soap"/>
+<fullyQualifiedTypeName name="org.tempuri.Articulo"/>
+<fullyQualifiedTypeName name="ar.com.templateit.ecommerce.dto.ProductoDTO"/>
+<fullyQualifiedTypeName name="ar.com.templateit.ecommerce.assembler.ProductoAssembler"/>
+<fullyQualifiedTypeName name="org.tempuri.Categoria"/>
+<fullyQualifiedTypeName name="ar.com.templateit.ecommerce.assembler.CategoriaAssembler"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="ar.com.templateit.ecommerce.dto.CategoriaDTO"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="ar.com.templateit.ecommerce.dto.DetallePedidoDTO"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="javax.xml.datatype.XMLGregorianCalendar"/>
+<fullyQualifiedTypeName name="javax.xml.datatype.DatatypeFactory"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.lowagie.text.pdf.hyphenation.TernaryTree.Iterator"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="ar.com.templateit.ecommerce.util.EcommerceUtil"/>
+<fullyQualifiedTypeName name="java.math.BigDecimal"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,170 @@
+package ar.com.templateit.ecommerce.action;
+
+import java.math.BigDecimal;
+import java.util.List;
+
+import javax.xml.datatype.XMLGregorianCalendar;
+
+import org.apache.struts2.ServletActionContext;
+import org.tempuri.Service1Soap;
+
+import ar.com.templateit.ecommerce.dto.DetallePedidoDTO;
+import ar.com.templateit.ecommerce.dto.PedidoDTO;
+import ar.com.templateit.ecommerce.util.CaptchaGenerator;
+
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class PedidoAction extends ActionSupport{
+
+	private static final long serialVersionUID = -914090954685854829L;
+	private String numeroPedido;
+	private String apellido;
+	private String nombres;
+	private String direccion;
+	private String telefono;
+	private String email;
+	private String captcha;
+	private PedidoDTO pedido;
+	private String sessionId;
+	private Service1Soap service1Soap;
+	private BigDecimal totalPedido;
+
+	public String loadPedido() {
+		this.sessionId =  ServletActionContext.getRequest().getSession().getId();
+		this.pedido = new PedidoDTO();
+		
+		//TODO: obener una session id para mandar el webservices		
+		CaptchaGenerator rg = new CaptchaGenerator();
+		this.setCaptcha(rg.generateRandomString());
+		
+		return "loadPedido";
+	}
+	
+	public String sendPedido() {
+		//TODO: envinar al web serva session id para mandar el webservices
+		//TODO: enviar los datos del pedido
+		//TODO: enviar los datos del carrito de compra
+		//TODO: obtener el numero de comprobante y mostrar en pantalla
+		BigDecimal totalVenta = (BigDecimal)ActionContext.getContext().getSession().get("totalVenta");
+		List<DetallePedidoDTO> detallePedido = (List<DetallePedidoDTO>)ActionContext.getContext().getSession().get("detallePedido");
+		this.totalPedido = totalVenta;
+		double total = totalVenta.doubleValue();
+		String cliente = this.getApellido().trim()+" "+this.getNombres();
+		String mail = "test@hotmail.com";
+		String domicilio = this.getDireccion();
+			
+		int numeroPedido =  this.service1Soap.insertOrder(fecha, cliente, mail, domicilio, total);
+		
+		for(DetallePedidoDTO detallePedidoDTO :detallePedido){
+			int idArticulo =  detallePedidoDTO.getId().intValue();
+			double cantidad =  Double.parseDouble(detallePedidoDTO.getCantidad().toString());
+			double precioUnitario = detallePedidoDTO.getPrecio().doubleValue();
+			double subtotal = detallePedidoDTO.getSubTotal().doubleValue();
+			int numeroPedidoTmp = this.service1Soap.insertItemToOrder(numeroPedido, idArticulo, cantidad, precioUnitario, subtotal);
+		}
+				
+		
+		this.setNumeroPedido("139977");
+		
+		
+		return "comprobantePedido";
+	}
+	
+	public String obtenerCaptcha() {
+		
+		CaptchaGenerator rg = new CaptchaGenerator();
+		this.setCaptcha(rg.generateRandomString());
+		
+		return SUCCESS;
+	}
+
+	
+	
+	public String getNumeroPedido() {
+		return numeroPedido;
+	}
+
+	public void setNumeroPedido(String numeroPedido) {
+		this.numeroPedido = numeroPedido;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
+	public String getNombres() {
+		return nombres;
+	}
+
+	public void setNombres(String nombres) {
+		this.nombres = nombres;
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+
+	public String getTelefono() {
+		return telefono;
+	}
+
+	public void setTelefono(String telefono) {
+		this.telefono = telefono;
+	}
+		
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getCaptcha() {
+		return captcha;
+	}
+
+	public void setCaptcha(String captcha) {
+		this.captcha = captcha;
+	}
+
+	public PedidoDTO getPedido() {
+		return pedido;
+	}
+
+	public void setPedido(PedidoDTO pedido) {
+		this.pedido = pedido;
+	}
+
+	public String getSessionId() {
+		return sessionId;
+	}
+
+	public void setSessionId(String sessionId) {
+		this.sessionId = sessionId;
+	}
+
+	public void setService1Soap(Service1Soap service1Soap) {
+		this.service1Soap = service1Soap;
+	}
+
+	public BigDecimal getTotalPedido() {
+		return totalPedido;
+	}
+
+	public void setTotalPedido(BigDecimal totalPedido) {
+		this.totalPedido = totalPedido;
+	}
+			
+
+}

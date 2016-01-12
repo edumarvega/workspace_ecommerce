@@ -1,0 +1,25 @@
+
+.carritoGrillaScroll{
+	height: 320px !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.texto-titulo{
+	color:#2aabd2; 
+	font-size: 17px; 
+	font-weight:bold;
+}
+
+
+.ui-autocomplete-loading {
+	background : #fff url('img/ui-anim_basic_16x16.gif') right center no-repeat;
+}
+
+a:link, a:visited{
+	text-decoration:none;
+}
+
+
+
+

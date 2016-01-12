@@ -1,0 +1,192 @@
+package ar.com.templateit.ecommerce.action;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.struts2.ServletActionContext;
+import org.tempuri.ArrayOfArticulo;
+import org.tempuri.Articulo;
+import org.tempuri.Service1Soap;
+
+import ar.com.templateit.ecommerce.assembler.ProductoAssembler;
+import ar.com.templateit.ecommerce.dto.CategoriaDTO;
+import ar.com.templateit.ecommerce.dto.DetallePedidoDTO;
+import ar.com.templateit.ecommerce.dto.ProductoDTO;
+
+import com.lowagie.text.pdf.hyphenation.TernaryTree.Iterator;
+import com.opensymphony.xwork2.ActionContext;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ProductoAction extends ActionSupport{
+
+	private static final long serialVersionUID = -3760366151978971632L;
+	private String descripcion;
+	private List<ProductoDTO> productosDTO;
+	private List<DetallePedidoDTO> detallePedidoDTO;
+	private BigDecimal totalVenta;
+	private Service1Soap service1Soap;
+	private String idCategoria;
+	
+	public String search() {
+		
+		String finalPathImg = (String)ActionContext.getContext().getSession().get("finalPathImg");
+		Map<Integer, String> imgMap = (Map<Integer, String>)ActionContext.getContext().getSession().get("imgMap");
+		List<CategoriaDTO> categorias = (List<CategoriaDTO>)ActionContext.getContext().getSession().get("categoriasDTO");
+		
+		ArrayOfArticulo resultadoArticulo =null;
+		List<Articulo> articulos= new ArrayList<Articulo>();
+		
+		if(!this.idCategoria.isEmpty()){
+			resultadoArticulo = this.service1Soap.getArticulosByCategory(Integer.parseInt(idCategoria));
+			articulos = resultadoArticulo.getArticulo();
+		}
+		else{
+			resultadoArticulo = this.service1Soap.getArticulosByDescription(this.getDescripcion().trim());
+			articulos = resultadoArticulo.getArticulo();
+		}
+		
+		this.productosDTO = new ArrayList<ProductoDTO>();
+				
+		ProductoAssembler productoAssembler = new ProductoAssembler();
+		
+		for(Articulo articulo : articulos){
+			for(CategoriaDTO cat : categorias){
+				if(cat.getId().intValue() ==articulo.getIdCategoria()){
+					//TODO: recorrer map y traer el pathImage
+					
+					Iterator<Integer,String> it = imgMap.entrySet().iterator();
+					while (it.hasNext()) {
+						Map.Entry e = (Map.Entry)it.next();
+						System.out.println(e.getKey() + " " + e.getValue());
+					}
+					this.productosDTO.add(productoAssembler.getData(articulo,cat,pathImage));
+				}
+			}
+		}
+		
+		ActionContext.getContext().getSession().put("productosDTO", this.productosDTO);
+		
+		
+		return "search";
+	}
+	
+		
+	public String agregarAlCarrito() {
+		this.totalVenta = (BigDecimal)ActionContext.getContext().getSession().get("totalVenta");
+		this.detallePedidoDTO = (List<DetallePedidoDTO>)ActionContext.getContext().getSession().get("detallePedidoDTO");
+		
+		String id = ServletActionContext.getRequest().getParameter("id");
+		String cantidad = ServletActionContext.getRequest().getParameter("cantidad");
+		
+		//Buscar el producto por id desde el webservice
+		this.productosDTO = (List<ProductoDTO>)ActionContext.getContext().getSession().get("productosDTO");
+		
+				
+		for(ProductoDTO producto : this.productosDTO){
+			if(producto.getId().intValue()== Integer.parseInt(id)){
+				DetallePedidoDTO detallePedido = new DetallePedidoDTO();
+				detallePedido.setId(producto.getId());
+				detallePedido.setDescripcion(producto.getDescripcion());
+				detallePedido.setCantidad(Integer.valueOf(cantidad));
+				detallePedido.setPrecio(producto.getPrecio());
+				detallePedido.setSubTotal(producto.getPrecio().multiply(new BigDecimal(Integer.parseInt(cantidad))));
+				
+				this.detallePedidoDTO.add(detallePedido);	
+				
+				BigDecimal precioCantidad = producto.getPrecio().multiply(new BigDecimal(Integer.parseInt(cantidad)));
+				
+				this.totalVenta = this.totalVenta.add(precioCantidad);
+			}
+		}
+			
+		ActionContext.getContext().getSession().put("detallePedidoDTO", this.detallePedidoDTO);
+		ActionContext.getContext().getSession().put("totalVenta", totalVenta);
+		
+		
+		return "refreshItems";
+	}
+	
+	public String eliminarDelCarrito() {
+		
+		this.detallePedidoDTO = (List<DetallePedidoDTO>)ActionContext.getContext().getSession().get("detallePedidoDTO");
+		String index = ServletActionContext.getRequest().getParameter("index");
+		
+		this.totalVenta = (BigDecimal)ActionContext.getContext().getSession().get("totalVenta");
+		BigDecimal precioCantidad = this.detallePedidoDTO.get(Integer.parseInt(index)).getPrecio().multiply(
+				                      new BigDecimal(this.detallePedidoDTO.get(Integer.parseInt(index)).getCantidad().intValue()));  
+		this.totalVenta = this.totalVenta.subtract(precioCantidad);
+						
+		this.detallePedidoDTO.remove(Integer.parseInt(index));
+				
+		ActionContext.getContext().getSession().put("detallePedidoDTO", this.detallePedidoDTO);
+		ActionContext.getContext().getSession().put("totalVenta", this.totalVenta);
+		
+		return "refreshItems";
+	}
+	
+	
+	public String vaciarCarrito() {
+		this.detallePedidoDTO = (List<DetallePedidoDTO>)ActionContext.getContext().getSession().get("detallePedidoDTO");
+		this.detallePedidoDTO.clear();
+				
+		ActionContext.getContext().getSession().put("detallePedidoDTO", this.detallePedidoDTO);
+		ActionContext.getContext().getSession().put("totalVenta", new BigDecimal("0.00"));
+		
+		return "refreshItems";
+	}
+
+	
+	
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
+	public List<ProductoDTO> getProductosDTO() {
+		return productosDTO;
+	}
+
+	public void setProductosDTO(List<ProductoDTO> productosDTO) {
+		this.productosDTO = productosDTO;
+	}
+	
+	
+	public List<DetallePedidoDTO> getDetallePedidoDTO() {
+		return detallePedidoDTO;
+	}
+
+
+	public void setDetallePedidoDTO(List<DetallePedidoDTO> detallePedidoDTO) {
+		this.detallePedidoDTO = detallePedidoDTO;
+	}
+
+
+	public BigDecimal getTotalVenta() {
+		return totalVenta;
+	}
+
+	public void setTotalVenta(BigDecimal totalVenta) {
+		this.totalVenta = totalVenta;
+	}
+
+	public void setService1Soap(Service1Soap service1Soap) {
+		this.service1Soap = service1Soap;
+	}
+
+	public String getIdCategoria() {
+		return idCategoria;
+	}
+
+	public void setIdCategoria(String idCategoria) {
+		this.idCategoria = idCategoria;
+	}
+	
+	
+	
+
+}
